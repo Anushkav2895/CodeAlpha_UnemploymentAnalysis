@@ -1,0 +1,130 @@
+======================================================================
+DATA OVERVIEW
+======================================================================
+
+Unemployment_in_India: 740 rows | May 2019 to Jun 2020 | 28 regions
+                               count        mean  ...          75%          max
+Unemployment Rate (%)          740.0       11.79  ...        15.89        76.74
+Employed                       740.0  7204460.03  ...  11275489.50  45777509.00
+Labour Participation Rate (%)  740.0       42.63  ...        45.50        72.57
+
+[3 rows x 8 columns]
+
+Unemployment_Rate_upto_11_2020: 267 rows | Jan 2020 to Oct 2020 | 27 regions
+                               count         mean  ...          75%          max
+Unemployment Rate (%)          267.0        12.24  ...        16.76        75.85
+Employed                       267.0  13962105.72  ...  21878686.00  59433759.00
+Labour Participation Rate (%)  267.0        41.68  ...        44.06        69.69
+
+[3 rows x 8 columns]
+
+======================================================================
+COVID-19 IMPACT
+======================================================================
+
+National average: 9.23% (Jan-Feb 2020) -> 23.03% (Apr-May 2020 avg; single-month high: May 2020)
+Recovery: national average back to 10.9% by Jun 2020 and 8.0% by Oct 2020.
+Labour participation: 44.4% (Jan-Feb) -> 35.3% (Apr 2020).
+
+Top 10 states by increase (percentage points):
+                Pre-Covid (Jan-Feb)   Peak  Increase (pp)
+Region                                                   
+Puducherry                     1.17  67.02          65.85
+Jharkhand                     11.23  53.16          41.93
+Tamil Nadu                     1.83  41.50          39.66
+Bihar                         10.45  46.30          35.85
+Karnataka                      3.24  24.90          21.67
+Odisha                         2.51  17.58          15.08
+Maharashtra                    4.82  18.18          13.36
+Andhra Pradesh                 5.66  18.97          13.31
+Haryana                       23.06  36.12          13.06
+Madhya Pradesh                 4.34  17.17          12.83
+
+Least affected 5 states:
+                  Pre-Covid (Jan-Feb)   Peak  Increase (pp)
+Region                                                     
+Uttarakhand                      5.24   7.24           2.00
+Tripura                         30.54  31.37           0.83
+Chhattisgarh                     9.02   6.96          -2.06
+Jammu & Kashmir                 20.93  18.74          -2.19
+Himachal Pradesh                16.84  14.58          -2.26
+
+Total employed (27 states): 404.6M (Jan-Feb) -> 274.8M (lowest, Apr 2020) = 32.1% drop
+
+Rural/urban (Dataset 1): avg May2019-Feb2020 vs Apr 2020
+       Baseline  Apr 2020
+Area                     
+Rural      8.09     21.75
+Urban     10.84     25.46
+
+======================================================================
+SEASONAL PATTERNS (pre-Covid only, May 2019 - Feb 2020)
+======================================================================
+Month
+1     9.95
+2     9.96
+5     8.87
+6     9.30
+7     9.03
+8     9.64
+9     9.05
+10    9.90
+11    9.87
+12    9.50
+
+Most volatile states pre-Covid (std dev of monthly rate):
+Region
+Goa                 6.61
+Chandigarh          5.01
+Jammu & Kashmir     4.77
+Himachal Pradesh    4.00
+Tripura             2.98
+
+======================================================================
+REGIONAL PATTERNS
+======================================================================
+
+Highest avg unemployment (Dataset 1):
+ Region
+Tripura             28.35
+Haryana             26.28
+Jharkhand           20.58
+Bihar               18.92
+Himachal Pradesh    18.54
+
+Lowest avg unemployment (Dataset 1):
+ Region
+Gujarat        6.66
+Uttarakhand    6.58
+Assam          6.43
+Odisha         5.66
+Meghalaya      4.80
+
+Zone averages 2020:
+ Zone
+North        15.89
+East         13.92
+Northeast    10.95
+South        10.45
+West          8.24
+
+======================================================================
+KEY INSIGHTS & POLICY RECOMMENDATIONS
+======================================================================
+
+1. Covid-19 caused an abrupt, short-lived shock: unemployment jumped within a
+   month of the lockdown and then recovered through mid-2020.
+2. Hardest hit states: Puducherry, Jharkhand, Tamil Nadu -> prioritise relief, direct
+   transfers and targeted job schemes there.
+3. Urban India took the sharper hit in April 2020 (Urban 25.5% vs
+   Rural 21.7%) -> expand urban employment guarantees / gig-worker
+   social security alongside MGNREGA-type rural support.
+4. Labour participation fell with the spike: many people left the workforce
+   rather than being counted as unemployed -> track participation, not just
+   the headline rate.
+5. The shock was very uneven across states -> region-specific stimulus, skilling
+   and MSME credit support.
+6. Seasonal patterns can't be confirmed from ~1 pre-Covid year; collect
+   multi-year monthly data before planning around seasonality.
+
+Figures saved to E:\CodeAlpha_UnemploymentAnalysis\outputs\figures
